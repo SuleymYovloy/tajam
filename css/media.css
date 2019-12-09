@@ -1,0 +1,63 @@
+/* Mobile first */
+/* body{
+    background: green;
+}
+
+@media (min-width: 576px) {
+	body {
+        font-size: 5px;
+        background: blue;
+	}	
+}
+
+@media (min-width: 768px) {
+	body {
+        font-size: 5px;
+        background: red;
+	}	
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 5px;
+	}	
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 5px;
+	}	
+}
+
+@media (min-width: 1600px) {
+	html {
+		font-size: 5px;
+	}	
+} */
+
+
+/* Desktop first */
+@media (max-width: calc(1200px - 0.2px)) {
+	.container {
+		max-width: 980px;
+	}
+}
+
+@media (max-width: calc(992px - 0.2px)) {
+	.container {
+		max-width: 720px;
+	}	
+}
+
+@media (max-width: calc(768px - 0.2px)) {
+    html {
+        font-size: 8px;
+    }
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (max-width: calc(576px - 0.2px)) {
+	
+}
